@@ -7,7 +7,7 @@ import datetime
 def curr_rate(curr):
     """
     Get currency rate from bank
-    :param curr: Name of currency
+    :param curr: name of currency
     :return: currency rate
     """
     response = requests.get('http://www.cbr.ru/scripts/XML_daily.asp')
